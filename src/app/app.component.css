@@ -1,0 +1,43 @@
+app-header{
+    grid-area: header;
+    font-size: 1em;
+    text-align: center;
+    /* background: radial-gradient(circle,  rgb(53, 3, 65) 0%, rgb(4, 4, 61) 35%, rgba(2,0,50,1) 100%); */
+}
+
+app-nav {
+    grid-area: nav;
+    background-color: #45b5c4;
+    border: 2px solid #7a959e;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 1em;
+    border-radius: 0.4em ;
+}
+
+app-aside {
+    grid-area: aside;
+    width: 20rem;
+    background-color: #45b5c4;
+    border: 2px solid #7a959e;
+    display: block;
+    padding: 1em;
+    border-radius: 0.4em ;
+}
+
+app-footer {
+    grid-area: footer;
+    padding: 1rem;
+}
+
+/* app-principal { */
+    /* grid-area: main; */
+    /* border: 1px solid white; */
+/* } */
+
+.main {
+    grid-area: main;
+    text-align: center;
+    /* border: 1px solid white; */
+}
